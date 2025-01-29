@@ -7,7 +7,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #f5faf8;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -25,18 +25,18 @@ body{
 
 /* Info Section */
 .info_section{
-    margin-top: 100px;
+    margin-top: 70px;
     padding: 20px;
     max-width: 500px;
 }
 
 .info_section img{
     width: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 .info_section h2{
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -45,6 +45,10 @@ body{
     font-size: 16px;
     color: #777;
     max-width: 460px;
+}
+
+.hide_content2 {
+    display: none;
 }
 
 
@@ -131,26 +135,33 @@ button:hover {
     .container{
         grid-template-columns: 1fr;
         max-width: 100%;
-        margin: 200px 0;
     }
 
     .info_section{
-        display: flex;
-        flex-direction: column;
-        margin-top: 200px;
+        padding: 0;
+        margin-top: 10px;
     }
 
     .info_section img{
-        width: 40px;
-        margin-bottom: 20px;
-        display: block !important; 
-        visibility: visible !important;
+        width: 50px;
+        margin-bottom: 10px; 
     }
 
+    .info_section h2{
+        font-size: 30px;
+    }
+
+    .hide_content1 {
+        display: none;
+    }
+
+    .hide_content2 {
+        display: block;
+    }
     .form_section{
-        padding: 15px;
+        padding: 15px 15px 30px 15px;
         min-width: auto;
-        margin-bottom: 50px;
+        margin-bottom: 150px;
         position: relative;
     }
     .form_group.form_grid {
@@ -162,6 +173,5 @@ button:hover {
         bottom: -80px;
         font-size: 12px;
         text-align: center;
-        padding-bottom: 30px;
     }
 }

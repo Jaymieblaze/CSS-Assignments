@@ -130,6 +130,10 @@ button:hover {
     text-decoration: underline;
 }
 
+select {
+    color: #1f1f1f;
+}
+
 /* Media Query for Smaller Devices */
 @media (max-width: 600px){
     .container{

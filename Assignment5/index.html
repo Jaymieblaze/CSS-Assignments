@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment 5</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+           <a href="#">
+            <div>
+                <img src="images/wppusher-logo.png" alt="logo">
+            </div>
+           </a> 
+        </nav>
+        <div class="nav_menu">
+            <ul class="nav_list">
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Learn more</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#" class="active">Account</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="checkout">
+                <div class="checkout_header">
+                    <p>Checkout</p>
+                </div>
+                
+                <div class="basic_info">
+                    <div class="basic_info_desc">
+                        <div class="circle"><span>1</span></div> 
+                        <p>Your Basic Information</p>
+                    </div>
+                        
+                    <div class="form_group form_grid">
+                        <div class="input_box">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" placeholder="Jane" required>
+                        </div>
+                        
+                        <div class="input_box">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+                        </div>
+                    </div>
+
+                    <div class="input_box">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="janedoe@exmaple.com">
+                    </div>
+                    
+                </div>
+
+                <div class="payment_info">
+                    <div class="basic_info_desc">
+                        <div class="circle"><span>2</span></div> 
+                        <p>Your Payment Information</p>
+                    </div>
+                    <div class="input_box">
+                        <label for="cardNumber" class="credit_card">Credit Card</label>
+                        <div class="payment_box">
+                            <input type="text" id="cardNumber" name="cardNumber" placeholder="Card Number" class="box_1" required>
+                            <input type="month" id="expiryDate" name="expiryDate" placeholder="MM/YY" class="box_2">
+                            <input type="text" id="cvv" name="cvv" placeholder="CVV" class="box_3">
+                        </div>
+                    </div>
+                    
+                    <button>Buy WP Pusher</button>
+                </div>
+
+                <div class="checkout_footer">
+                    <div class="footer_details">
+                        <i class="ri-question-line"></i>
+                        <p><span>Need any help?</span> Don't hesitate to <a href="#">contact support!</a></p>
+                    </div>
+                    <img src="images/stripe.png" alt="stripe">
+                    
+                </div>
+                
+            </div>
+
+            
+
+            <div class="details">
+                <h2>Freelancer</h2>
+                <div class="fee">
+                    <p>
+                        <span class="span1">$</span>
+                        <span class="span2">99</span>/ year
+                    </p>
+
+                    <p class="fee_details">Automatically renews after 1 year</p>
+                </div>
+                
+                <div class="features">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <p>Use on 5 client sites</p>
+                </div>
+                
+                <div class="features">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <p>Private repositories</p>
+                </div>
+                
+                <div class="features">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <p>Email support</p>
+                </div>
+
+                <div class="plans">
+                    <p>Need <b>20</b> clients?</p>
+                    <strong>Switch to the <span>Agency</span> plan</strong>
+                </div>
+                
+
+                <hr>
+                <div class="testimonial">
+                    <p class="testimonal_text">FTP is horrible to deal with. <span>WP Pusher</span> solves that issue, and the customer support is awesome!</p>
+
+                    <div class="author">
+                        <img src="images/Kirk.png" alt="image">
+                    <p class="author_name">Kirk Beard</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

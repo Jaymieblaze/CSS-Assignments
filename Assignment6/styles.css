@@ -1,17 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --blue-color: #0065fe;
+}
+
 * {
     box-sizing: border-box;
 }
 
-header {
-    display: grid;
-    align-items: center;
-    grid-template-rows: 1fr 2fr 1fr;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, sans-serif;
 }
 
-header img{
-    /* width: 50px;
-    height: 50px; */
-    margin-left: 20px;
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.button{
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--blue-color);
+}
+
+.button_blue {
+    background-color: var(--blue-color);
+    color: #fff;
+}
+
+.button_white {
+    color: var(--blue-color);
+    
+}
+
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;  
+}
+
+.nav_logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--blue-color);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav_logo img {
+    height: 20px;
+    margin-right: 8px;
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.navbar ul span {
+    color: var(--blue-color);
+    
+}
+
+.navbar ul li{
+    margin: 0 15px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: #141414;
+}
+
+.navbar ul li i {
+    font-size: 20px;
+}
+
+.navbar .buttons {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    position: relative;
+}
+
+.hero h1{
+    font-size: 40px;
+    line-height: 90px;
+    max-width: 1000px;
+    text-align: center;
+    
+}
+
+.hero span {
+    color: var(--blue-color);
+}
+
+.hero img {
+    position: absolute;
+    top: 190px;
+}
+.hero p{
+    text-align: center;
+    max-width: 750px;
+}
+
+.hero_buttons {
+    margin-top: 20px;
+}
+
+.hero_desc {
+    max-width: 768px;
+    padding: 40px 60px;
+    border: 0.5px solid #005ae2;
+    border-radius: 24px;
+}
+
+.link_items {
+    font-size: 80px;
+    rotate: 45deg;
+    display: flex;
+    align-items: center;
 }

@@ -98,7 +98,7 @@ body {
 
 /* Hero Section */
 
-.hero {
+.hero_container {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -146,7 +146,8 @@ body {
     align-self: flex-end;
     position: relative;
     margin-top: 40px;
-    margin-right: 40px;
+    margin-right: 120px;
+    margin-bottom: 30px;
     background: linear-gradient(to right, #fefefe 70%, transparent );
 }
 
@@ -177,5 +178,240 @@ body {
     color: var(--blue-color);
 }
 
+.shape_1{
+    width: 100%;
+    /* background-color: #f8f7f7; */
+    /* height: 73px; */
+    margin-top: 30px;
+    border-bottom: 50px solid #f8f7f7;
+	border-left: 125px solid transparent;
+	border-right: 125px solid transparent;
+}
 
+/* Features Section */
+
+.features_wrapper {
+    background-color: #f9fbfd;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.features_header{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 50px;  
+}
+
+.features_header h1,
+.plans_header h1 {
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.features_header h1 span,
+.plans_header h1 span{
+    color: var(--blue-color);
+}
+
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.features_desc{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 50px;
+    padding: 100px 0;
+}
+
+.features_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.plans_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 570px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.card_grid {
+    display: flex;
+    align-items: center;
+    /* gap: 8rem 4rem; */
+}
+
+.plans_card{
+    border-radius: 8px;
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    max-width: 400px;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card_heading {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.plans_card ul li {
+    list-style: none;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+
+.plans_card ul li i{
+    color: var(--blue-color);
+    margin-right: 10px;
+}
+
+.plan_highlight{
+    transform: scale(1.1);
+}
+.card_primary {
+    background-color: #1e3448;
+    z-index: 1;
+    color: #fff;
+}
+
+.card_primary i {
+    color: #fff;
+}
+
+
+.plans_buttons {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.trim_url {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#1e3448, #1e3448);
+}
+
+.trim_card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input_field, .drop_down {
+    width: 100%;
+    padding: 5px;
+    margin: 8px 0;
+}
+
+.input_group {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* FAQ */
+.faq_footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#1e3448, #1e3448);
+    height: 299px;
+    position: relative;
+}
+
+.faq_footer h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.faq_footer .bg_image-1{
+    position: absolute;
+    left: 0;
+}
+
+.faq_footer .bg_image-2{
+    position: absolute;
+    right: 0;
+}
+
+
+/* Footer */
+
+footer {
+    display: grid;
+    grid-template-columns: 184px  1fr;
+    gap: 50px; 
+    padding-top: 95px;
+    align-items: start;
+}
+
+.footer_logo {  
+    color: #000;
+}
+
+.footer_logo img {
+    filter: grayscale(100%) brightness(0%);
+}
+
+.socials {
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+.socials a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+}
+
+.footer_content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer_content-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_content-item h4 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.footer_content-item ul {
+    list-style: none;
+    padding-left: 0;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.footer_content_grid.centered {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 30px;
+    justify-content: center; /* Centers the group */
+    text-align: center;
+}
 

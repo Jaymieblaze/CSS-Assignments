@@ -362,7 +362,6 @@ body {
 .card_secondary{
     border: 0.4px solid var(--blue-color);
     padding: 2rem 3rem;
-    
     transition: 0.5s ease-in;
 }
 

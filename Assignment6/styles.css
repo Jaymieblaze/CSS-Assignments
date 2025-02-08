@@ -80,9 +80,11 @@ body {
 
 .navbar ul span {
     color: var(--blue-color);
-    
 }
 
+.navbar ul span:hover {
+    color: #141414;
+}
 .navbar ul li{
     margin: 0 15px;
 }
@@ -91,6 +93,19 @@ body {
     text-decoration: none;
     color: #141414;
 }
+
+.navbar ul a:hover {
+    color: var(--blue-color);
+}
+
+.navbar ul a:hover::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: var(--blue-color);
+    display: block;
+}
+
 
 .navbar ul li i {
     font-size: 20px;

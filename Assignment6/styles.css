@@ -572,6 +572,7 @@ select:focus {
 
 footer {
     position: relative;
+    overflow: hidden;
 }
 
 .footer_container {
@@ -724,7 +725,7 @@ footer {
         border-right: 75px solid transparent;
         margin-bottom: 94px;
     }
-    
+
     .link_item {
         width: 60px;
         margin-left: -8px;

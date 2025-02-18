@@ -86,6 +86,7 @@ main {
 /* Checkout Section */
 .checkout{
     padding: 40px;
+    overflow: hidden;
 }
 
 .checkout_header{
@@ -454,7 +455,7 @@ hr{
     }
 
     .checkout {
-        padding: 20px;
+        padding: 40px;
     }
 
     
@@ -539,5 +540,18 @@ hr{
 
     .fee .span1 {
         font-size: 16px;
+    }
+
+    .footer_details {
+        max-width: 100%;
+    }
+
+    .fee {
+        flex-wrap: wrap;
+    }
+
+    .fee .span2 {
+        font-size: 40px;
+        margin-left: 10px;
     }
 }

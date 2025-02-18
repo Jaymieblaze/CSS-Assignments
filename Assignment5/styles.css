@@ -483,6 +483,11 @@ hr{
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+    }
+
+    .fee_details {
+        text-align: center;
     }
 
     .form_group.form_grid {

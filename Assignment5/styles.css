@@ -411,7 +411,7 @@ hr{
     font-size: 16px;
 }
 
-/* Media Query for Mobile and Tablet */
+/* Media Query for Tablet devices*/
 @media screen and (max-width: 1024px) {
     .container {
         max-width: 100%;
@@ -517,7 +517,7 @@ hr{
     }
 }
 
-/* Mobile Small Screens) */
+/* Mobile Small Screens */
 @media screen and (max-width: 768px) {
     .container {
         margin: 0 20px 20px 20px;

@@ -520,10 +520,8 @@ hr{
 /* Mobile Small Screens) */
 @media screen and (max-width: 768px) {
     .container {
-        max-width: 100%;
-        height: auto;
         margin: 0 20px 20px 20px;
-        overflow: hidden;
+        grid-template-columns: 1fr;
     }
 
     header {
@@ -536,11 +534,6 @@ hr{
         text-align: center;
     }
 
-    .container {
-        grid-template-columns: 1fr;
-        padding: 10px;
-    }
-
     .checkout {
         padding: 15px;
     }
@@ -551,10 +544,6 @@ hr{
 
     .footer_details {
         max-width: 100%;
-    }
-
-    .fee {
-        flex-wrap: wrap;
     }
 
     .fee .span1 {

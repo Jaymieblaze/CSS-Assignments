@@ -314,6 +314,8 @@ button:hover{
 
 .fee {
     position: relative;
+    margin-bottom: 20px;
+    gap: 10px;
 }
 
 .fee .span1 {
@@ -331,7 +333,7 @@ button:hover{
     width: 150px;
     font-style: italic;
     margin-top: 10px;
-    margin-bottom: 20px;
+    text-align: left;
 }
 
 .features {
@@ -548,6 +550,12 @@ hr{
 
     .fee {
         flex-wrap: wrap;
+    }
+
+    .fee .span1 {
+        font-size: 18px;
+        position: absolute;
+        top: 8px;
     }
 
     .fee .span2 {

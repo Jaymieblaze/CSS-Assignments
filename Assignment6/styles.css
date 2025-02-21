@@ -508,12 +508,14 @@ select:focus {
     position: absolute;
     rotate: -110.54 deg;
     top: -200px;
+    z-index: -1;
 }
 
 .faq_img-2{
     position: absolute;
     right: 0;
     top: 450px;
+    z-index: -1;
 }
 
 .faq_item {
@@ -789,6 +791,10 @@ footer {
     
     .faq_section {
         padding: 0 30px;
+    }
+
+    .faq_img-2 {
+        top: 525px;
     }
 
     .faq_footer-details {
